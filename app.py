@@ -6,7 +6,7 @@ def subtract(a, b):
 
 def test():
     assert add(1, 2) == 3
-    assert subtract(5, 5) == 2
+    assert subtract(5, 5) == 0
     print("✅ All tests passed.")
 
 if __name__ == "__main__":  # <- Corrected line
